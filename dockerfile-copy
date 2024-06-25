@@ -1,5 +1,0 @@
-FROM node:16.14.2
-WORKDIR /api
-EXPOSE 8080
-COPY api.js .
-CMD [ "node", "api.js" ]
